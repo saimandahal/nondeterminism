@@ -22,6 +22,7 @@ for _ in range(25):
     i, j = random.sample(range(50), 2)
  
     dist = hamming_distance(outputs[i], outputs[j])
+    
     nonce = random.randint(0, 10000) 
 
     # Commit
